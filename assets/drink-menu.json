@@ -1,0 +1,62 @@
+[
+    {
+        "name": "Bubble Milk Tea",
+        "type": "Classic Drinks",
+        "price": "$30 (S), $35 (M), $40 (L)",
+        "image": "assets/bubble-milktea.png"
+    },
+    {
+        "name": "Iced Latte",
+        "type": "Coffee",
+        "price": "$30 (S), $35 (M), $40 (L)",
+        "image": "assets/iced-latte.jpg"
+    },
+    {
+        "name": "Caramel Macchiato",
+        "type": "Coffee",
+        "price": "$30 (S), $35 (M), $40 (L)",
+        "image": "assets/caramel-macchiato.jpg"
+    },
+    {
+        "name": "Lemon Tea",
+        "type": "Tea",
+        "price": "$30 (S), $35 (M), $40 (L)",
+        "image": "assets/lemon-tea.jpg"
+    },
+    {
+        "name": "Orange Juice",
+        "type": "juice",
+        "price": "$30 (S), $35 (M), $40 (L)",
+        "image": "assets/orange-juice.jpg"
+    },
+    {
+        "name": "Apple juice",
+        "type": "juice",
+        "price": "$30 (S), $35 (M), $40 (L)",
+        "image": "assets/apple-juice.jpg"
+    },
+    {
+        "name": "Banana juice",
+        "type": "juice",
+        "price": "$30 (S), $35 (M), $40 (L)",
+        "image": "assets/bananas-juice.avif"
+    },
+    {
+        "name": "Black",
+        "type": "Coffee",
+        "price": "$30 (S), $35 (M), $40 (L)",
+        "image": "assets/black.jpg"
+    },
+    {
+        "name": "Mocha",
+        "type": "Coffee",
+        "price": "$30 (S), $35 (M), $40 (L)",
+        "image": "assets/iced-mocha.jpg"
+    },
+    {
+        "name": "cappuccino",
+        "type": "Coffee",
+        "price": "$30 (S), $35 (M), $40 (L)",
+        "image": "assets/cappuccino.jpg"
+    }  
+]

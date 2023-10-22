@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <script src="scripts/jquery-3.7.1.min.js"></script>
+        <script src="scripts/reserve-table.js"></script>
+        <title>
+            20060913D_Drink Ordering Form
+        </title>
+        <style>
+            .table{
+              fill:grey; 
+              stroke:royalblue;
+              stroke-width: 2px;
+              cursor: pointer;
+            }
+            .booked{
+                fill: red;
+                stroke: black;
+                stroke-width: 2px;
+                cursor: not-allowed;
+            }
+        </style>
+    </head>
+    <body>
+        <header class="bg-success text-white text-center p-3 h3">Drink Ordering System</header>
+        <div class="d-none d-lg-block">
+            <ul class="navbar-nav">
+                <li class="nav-item d-flex justify-content-center">
+                    <div class="p-2 "><a class="nav-link" href="index.html">Home</a></div>
+                    <div class="p-2"><a class="nav-link" href="order.html">Order</a></div>
+                    <div class="p-2"><a class="nav-link active text-primary" aria-current="page" href="reserve.html">Reserve a Table</a></div>
+                    <div class="p-2"><a class="nav-link" href="menu.html">Menu</a></div>
+                </li>
+            </ul>
+        </div>
+        <div class="d-block d-lg-none">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <div class="p-2 "><a class="nav-link"  href="index.html">Home</a></div>
+                            <div class="p-2"><a class="nav-link" href="order.html">Order</a></div>
+                            <div class="p-2"><a class="nav-link active text-primary" aria-current="page" href="reserve.html">Reserve a Table</a></div>
+                            <div class="p-2"><a class="nav-link" href="menu.html">Menu</a></div>
+                        </div> 
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="container text-center py-2">
+            <svg width="400" height="100">
+                <circle class="table" cy="50" cx="70" r="30" id="1"/>
+                <circle class="table" cy="50" cx="160" r="30" id="2"/>
+                <circle class="table" cy="50" cx="250" r="30" id="3"/>
+                <circle class="table" cy="50" cx="340" r="30" id="4"/>
+                <text x="70" y="50" text-anchor="middle" alignment-baseline="central" fill="white">1</text>
+                <text x="160" y="50" text-anchor="middle" alignment-baseline="central" fill="white">2</text>
+                <text x="250" y="50" text-anchor="middle" alignment-baseline="central" fill="white">3</text>
+                <text x="340" y="50" text-anchor="middle" alignment-baseline="central" fill="white">4</text>
+            </svg> 
+        </div>
+        <div id="text" class="text-center">Click a Table to book</div>
+        <div class="d-flex justify-content-center">
+        <span id="confirm" class="m-1"></span>
+        <span id="dismiss" class="m-1"></span>
+        </div>
+        <!-- <button id="confirm" class="btn btn-primary" type="button">Confirm</button>
+        <button id="dismiss" class="btn btn-secondary" type="reset">Dismiss</button> -->
+        <div id="selected-table" class="text-center h-5 font-weight-bold ">
+
+        </div>
+        <footer class="bg-success text-white fixed-bottom p-3 text-center">
+            20060913D Leung Yee Ching - EIE4432 Lab 3 Project
+        </footer>
+        <script>
+            
+        </script>
+    </body>
+</html>
